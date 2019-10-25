@@ -1,0 +1,60 @@
+body {
+  margin: 0;
+}
+p {
+  margin: 0;
+}
+p:hover {
+  cursor: default;
+}
+header {
+  height: 3em;
+  font-size: 2em;
+  text-align: center;
+}
+#deck {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  width: 100%;
+  margin: 0 auto;
+  padding: 1.5em 0 0;
+  background-color: lightgrey;
+  box-shadow: 0 2px 2px white inset;
+  height: 100px;
+}
+#card {
+  height: 60px;
+  width: 40px;
+  margin: 0 1em;
+}
+.front {
+  height: 60px;
+  width: 40px;
+  border: 5px solid darkblue;
+  color: darkblue;
+  background-color: powderblue;
+  font-size: 2.6em;
+  text-align: center;
+  position: absolute;
+}
+.back {
+  position: absolute;
+  height: 60px;
+  width: 40px;
+  border: 5px solid darkblue;
+  font-size: 2.6em;
+  color: darkblue;
+  text-align: center;
+  background-color: lightslategrey;
+}
+#front:hover {
+  background-color: aquamarine;
+  border: 5px solid darkblue;
+  color: darkblue;
+}
+#back:hover {
+  background-color: aquamarine;
+  border: 5px solid darkblue;
+  color: darkblue;
+}

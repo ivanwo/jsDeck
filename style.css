@@ -1,0 +1,81 @@
+body {
+  margin: 0;
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+.flexible {
+  padding-right: 15px;
+  padding-left: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.mburger a {
+  text-decoration: none;
+  font-size: 1.25em;
+  color: white;
+}
+.carrot {
+  margin-top: 10px;
+  float: right;
+  margin-left: 0.25em;
+}
+a {
+  text-decoration: none;
+}
+a:visited {
+  color: white;
+  text-decoration: none;
+}
+.userstuff {
+  display: flex;
+  flex-direction: row-reverse;
+  margin-top: 0.3em;
+  width: 200px;
+}
+.msg {
+  float: right;
+  align-self: center;
+  margin-right: 1em;
+}
+.not {
+  float: right;
+  align-self: center;
+  margin-right: 1em;
+}
+.usr {
+  float: right;
+}
+.usr img {
+  border-radius: 50%;
+}
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  max-height: 50px;
+  background-color: #373f48;
+  border-bottom: 1px solid #e5e5e5;
+  color: white;
+  font-family: sans-serif;
+}
+#dib {
+  background-color: grey;
+  height: 100px;
+  width: 100px;
+}
+#par2 {
+  border: 2px solid black;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 75px;
+  width: 150px;
+}
