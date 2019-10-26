@@ -6,24 +6,24 @@ let backs = document.getElementsByClassName("back");
 for (let i = 0; i < fronts.length; i++) {
   backs[i].style.transform = "rotateY(90deg)";
   fronts[i].addEventListener("click", _ => {
-    fronts[i].style.transition = "transform 1s";
+    fronts[i].style.transition = "transform 0.5s";
     fronts[i].style.transform = "rotateY(-90deg)";
     setTimeout(function() {
-      backs[i].style.transition = "transform 1s";
+      backs[i].style.transition = "transform 0.5s";
       backs[i].style.transform = "rotateY(0deg)";
-    }, 1000);
+    }, 500);
   });
 }
 
 // ASSIGN EVENTLISTENERS TO CARD BACKS
 for (let i = 0; i < backs.length; i++) {
   backs[i].addEventListener("click", _ => {
-    backs[i].style.transition = "transform 1s";
+    backs[i].style.transition = "transform 0.5s";
     backs[i].style.transform = "rotateY(-90deg)";
     setTimeout(function() {
-      fronts[i].style.transition = "transform 1s";
+      fronts[i].style.transition = "transform 0.5s";
       fronts[i].style.transform = "rotateY(0deg)";
-    }, 1000);
+    }, 500);
   });
 }
 
