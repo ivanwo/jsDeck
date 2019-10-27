@@ -1,6 +1,5 @@
 body {
   margin: auto;
-
   font-family: serif;
 }
 p {
@@ -8,6 +7,9 @@ p {
 }
 .back p {
   padding: 0.15em 0;
+}
+.front p {
+  padding: 1em 0;
 }
 p:hover {
   cursor: default;
